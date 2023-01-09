@@ -30,4 +30,22 @@ body{
         display: block;
         margin:10px;
     }
+ 
+}
+
+  /* Mobile version */
+  @media only screen and (min-width:300px) {
+    body{
+        display: block;
+    }
+    #navbar{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    #main-doc{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
 }
