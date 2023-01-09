@@ -1,0 +1,33 @@
+body{
+    font-size: 14px;
+    position:relative;
+}
+
+/* desktop and laptop size */
+
+@media only screen and (min-width:800px) {
+    body{
+        font-size: 20px;
+    }
+
+    #navbar{
+        width: 35%;
+        position: fixed;
+        float: left;
+        top: 0px;
+        margin: 25px;
+        padding: 10px;
+    }
+
+    #main-doc{
+        float: right;
+        width: 60%;
+        margin-left: 28px;
+        position: relative;
+    }
+
+    .nav-link{
+        display: block;
+        margin:10px;
+    }
+}
